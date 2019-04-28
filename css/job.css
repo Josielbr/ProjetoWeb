@@ -1,0 +1,194 @@
+body {
+  font-family: Roboto;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+ul {
+  padding: 0px !important;
+}
+.menu-topo {
+  width: 100%;
+  background-color: #003366;
+  height: 60px;
+}
+main {
+  width: 980px;
+  position: relative;
+  margin: 0 auto;
+}
+.logo {
+  padding: 10px;
+  width: 70%;
+  float: left;
+}
+.logo img {
+  width: 150;
+  height: 43;
+}
+.redes-sociais {
+  padding: 5px;
+  width: 20%;
+  float: right;
+}
+.redes-sociais ul li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+}
+.redes-sociais ul li img {
+  width: 27px;
+  height: 27px;
+}
+.menu-principal {
+  height: 80px;
+  border-bottom: 3px solid #efefef;
+}
+.header-topo2 {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+.menu ul li {
+  display: inline;
+  margin-left: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.busca {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+.busca input {
+  background-image: url(../img/searcher.png);
+  background-repeat: no-repeat;
+  background-position: 96%;
+  margin-top: 5px;
+  height: 36px;
+  width: 190px;
+  padding: 7px;
+  border: 1px solid #d6d6d6;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+}
+input,
+select,
+textarea,
+button {
+  font-family: Roboto;
+  font-size: 1em;
+}
+
+form {
+  padding: 32;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.4em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 32;
+}
+.grupo:before,
+.grupo:after {
+  content: " ";
+  display: table;
+}
+
+.grupo:after {
+  clear: both;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #666;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #ffc;
+}
+
+.campo label.checkbox {
+  color: #000;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.botao {
+  font-size: 1.5em;
+  background: #f90;
+  border: 0;
+  margin-bottom: 1em;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.botao:hover {
+  background: #fb0;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
+.botao,
+select,
+label.checkbox {
+  cursor: pointer;
+}
