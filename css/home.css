@@ -4,6 +4,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+ 
 }
 ul {
   padding: 0px !important;
@@ -89,9 +90,11 @@ main {
 }
 h1{
   margin-left: 20px;
+  font-size: 18px;
 }
 h3{
   margin-left: 20px;
+  font-size: 16px
 }
 input,
 select,
@@ -100,3 +103,18 @@ button {
   font-family: Roboto;
   font-size: 1em;
 }
+#ladoalado{
+  float: left;
+  margin: auto
+  
+}
+.acougue{
+  text-align: center;
+  float: left;
+  font-size: 20;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(53, 53, 53)
+}
+
+
+
