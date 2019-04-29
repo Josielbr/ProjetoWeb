@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+     height: 100%;
+     margin: 0;
+    
+   }
+   ul {
+     padding: 0px !important;
+   }
+   .menu-topo {
+     margin-left: 0%;
+     margin-right: 0%;
+     margin:0 auto;
+     width: 100%;
+     background-color: #003366;
+     height: 80px;
+   }
+   main {
+     width: 980px;
+     position: relative;
+     margin: 0 auto;
+   }
+   .logo {
+     padding: 10px;
+     width: 70%;
+     float: left;
+   }
+   .logo img {
+     width: 150;
+     height: 65;
+     float: left;
+   }
+   .redes-sociais {
+     padding: 5px;
+     width: 20%;
+     float: right;
+   }
+   .redes-sociais ul li {
+     list-style: none;
+     float: left;
+     margin-left: 15px;
+   }
+   .redes-sociais ul li img {
+     width: 27px;
+     height: 27px;
+   
+   }
+   .menu-principal {
+     height: 80px;
+     border-bottom: 3px solid #efefef;
+   }
+   .header-topo2 {
+     background-color: #ffffff;
+     width: 980px;
+     margin: 0 auto;
+     padding: 16px;
+   }
+   .menu {
+     width: 70%;
+     float: left;
+   }
+   .menu ul li {
+     display: inline;
+     margin-left: 15px;
+   }
+   .menu ul li a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #8b8b8b;
+     font-size: 18px;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 600;
+   }
+   .busca {
+     width: 30%;
+     float: right;
+     text-align: center;
+   
+   }
+   .busca input{
+       background-image: url(../img/searcher.png);
+       background-repeat: no-repeat;
+       background-position: 96% ;
+       margin-top: 5px;
+       height: 36px;
+       width: 190px;
+       padding: 7px;
+       border: 1px solid #d6d6d6;
+   }
+   .col-100 {
+     width: 100%;
+     float: left;
+     position: relative;
+    
+ }
+ #promocoes{
+   float: center;
+   left: 20%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 20%;
+    margin-top: 20%; 
+    
+ }
+ #descricao{
+  font-size: 18; 
+  color:rgb(8, 6, 6);
+  font-family: 'Times New Roman', Times, serif;
+ }
+ 
